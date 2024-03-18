@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 62.5%;
+  --nav-color1A: tomato;
+  --nav-color1B: #da4328;
+  --nav-color2A: white;
+  --nav-color2B: #e0e0e0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font: inherit;
+  color: inherit;
+}
+
+body {
+  min-height: 50rem;
+  background-color: #efefef;
+  /* border-bottom: 2px solid darkgoldenrod; */
+}
+
+.navbar {
+  font-size: 1.8rem;
+}
+
+.navbar,
+.nav-container,
+.nav-links,
+.nav-search {
+  display: flex;
+}
+
+navbar {
+  padding: 1.3rem 3rem;
+  background-color: var(--nav-color1A);
+  color: var(--nav-color2A);
+  box-shadow: 0px 5px 23px 2px rgba(191, 191, 191, 1);
+}
+
+navbar div {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links {
+  gap: 3.5rem;
+}
+
+.nav-search {
+  gap: 1.5rem;
+}
+
+ul,
+button,
+input {
+  padding: 0.6rem;
+}
+
+form * {
+  border-radius: 1rem;
+}
+
+form input {
+  width: 35rem;
+}
+
+a:hover {
+  color: var(--nav-color2B);
+}
+
+.btn-search {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: var(--nav-color2A);
+  color: var(--nav-color1A);
+}
+
+.btn-search:hover {
+  background-color: var(--nav-color2B);
+  color: var(--nav-color1B);
+}
+
+.btn-search:active {
+  box-shadow: var(--nav-color1B) 0px 0px 0px 3px;
+}
+
+/* ====================================================== */
+
+/* body {
+  border: 2px solid darkgoldenrod;
+}
+
+navbar {
+  background-color: #e99383;
+  border: 2px solid #dd4226;
+}
+
+.nav-container {
+  background-color: #777dd6;
+  border: 2px solid #1520b4;
+}
+
+ul,
+form {
+  background-color: #d5aae6;
+  border: 2px solid #ac45d4;
+} */
