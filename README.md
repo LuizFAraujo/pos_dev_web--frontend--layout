@@ -8,7 +8,7 @@ D1DFE - DESENVOLVIMENTO FRONT-END
 
 ## 📦 Tarefa
 
-Utilizando as propriedades de CSS vistas em sala, desenvolver três layouts similares aos [modelos](https://github.com/LuizFAraujo/pos_dev_web--frontend--layout/modelos) apresentados.
+Utilizando as propriedades de CSS vistas em sala, desenvolver três layouts similares aos [modelos](https://github.com/LuizFAraujo/pos_dev_web--frontend--layout/tree/main/modelos) apresentados.
 
 ## 📄 Licença
 
