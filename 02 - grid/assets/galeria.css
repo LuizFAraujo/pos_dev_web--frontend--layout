@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font: inherit;
+  color: inherit;
+}
+
+body{
+  background-color: #e6e6e6;
+}
+
+.base {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    img-01 img-02 img-03
+    img-04 img-05 img-06
+    img-07 img-08 img-09;
+  gap: 1.2rem 1.2rem;
+}
+
+.img {
+  width: 200px;
+  height: 150px;
+  border: 2px rgb(76, 103, 160) solid;
+  box-shadow: 5px 10px 15px -3px rgba(98, 99, 100, 0.788);
+}
