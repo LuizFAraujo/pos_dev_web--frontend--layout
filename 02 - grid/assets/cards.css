@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  font-family: Roboto, Arial, sans-serif;
+  /* font-size: 62.5%;   */
+  font-size: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  height: 150vh;
+  background-color: #efebe9;
+}
+
+.container {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 15rem);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    card-01 card-02 card-03
+    card-04 card-05 card-06;
+  gap: 1.2rem 1.2rem;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0px 0px 18px 3px #b0bec5;
+  border: 0.1rem solid #b0bec5;
+}
+
+.card-image {
+  height: 10rem;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.card-info {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 1.5rem auto;
+  gap: 0.8rem;
+}
+
+.card-info .info-title {
+  width: 100%;
+}
+
+.card-info .info-title h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-info .info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-info p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.card-info button {
+  width: 100%;
+  height: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  background-color: #cfd8dc;
+  border: 0.2rem solid #b0bec5;
+  color: #37474f;
+}
+
+.card-info button:hover {
+  background-color: #b0bec5;
+}
